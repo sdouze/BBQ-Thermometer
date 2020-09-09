@@ -12,8 +12,8 @@ In the future(when I receive some parts) I will build an enclosure and I will ma
 ![Imgur](https://i.imgur.com/uRtNlhW.jpg)
 
 Useful links
-https://www.digikey.com/en/maker/projects/how-to-measure-temperature-with-an-ntc-thermistor/4a4b326095f144029df7f2eca589ca54
-https://learn.adafruit.com/thermistor/overview
-https://www.skyeinstruments.com/wp-content/uploads/Steinhart-Hart-Eqn-for-10k-Thermistors.pdf
-https://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation
-https://aolittel.sell.everychina.com/p-108536306-food-grade-thermometer-gauge-thermistor-micro-temperature-sensor-50k-for-oven.html
+https://www.digikey.com/en/maker/projects/how-to-measure-temperature-with-an-ntc-thermistor/4a4b326095f144029df7f2eca589ca54  
+https://learn.adafruit.com/thermistor/overview  
+https://www.skyeinstruments.com/wp-content/uploads/Steinhart-Hart-Eqn-for-10k-Thermistors.pdf  
+https://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation  
+https://aolittel.sell.everychina.com/p-108536306-food-grade-thermometer-gauge-thermistor-micro-temperature-sensor-50k-for-oven.html  
