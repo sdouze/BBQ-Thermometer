@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Thermistor_NTC TH1
+U 1 1 5E89116F
+P 5900 3425
+F 0 "TH1" H 5998 3471 50  0000 L CNN
+F 1 "Thermistor_NTC" H 5998 3380 50  0000 L CNN
+F 2 "" H 5900 3475 50  0001 C CNN
+F 3 "~" H 5900 3475 50  0001 C CNN
+	1    5900 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E89221F
+P 4500 3125
+F 0 "R5" H 4568 3171 50  0000 L CNN
+F 1 "1k" H 4568 3080 50  0000 L CNN
+F 2 "" V 4540 3115 50  0001 C CNN
+F 3 "~" H 4500 3125 50  0001 C CNN
+	1    4500 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5E89292C
+P 4550 1500
+F 0 "R4" H 4618 1546 50  0000 L CNN
+F 1 "1k" H 4618 1455 50  0000 L CNN
+F 2 "" V 4590 1490 50  0001 C CNN
+F 3 "~" H 4550 1500 50  0001 C CNN
+	1    4550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5E892DA8
+P 4300 1500
+F 0 "R3" H 4368 1546 50  0000 L CNN
+F 1 "1k" H 4368 1455 50  0000 L CNN
+F 2 "" V 4340 1490 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E892F5D
+P 4000 1500
+F 0 "R2" H 4068 1546 50  0000 L CNN
+F 1 "1k" H 4068 1455 50  0000 L CNN
+F 2 "" V 4040 1490 50  0001 C CNN
+F 3 "~" H 4000 1500 50  0001 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E89306F
+P 5900 2800
+F 0 "R1" H 5968 2846 50  0000 L CNN
+F 1 "50k" H 5968 2755 50  0000 L CNN
+F 2 "" V 5940 2790 50  0001 C CNN
+F 3 "~" H 5900 2800 50  0001 C CNN
+	1    5900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5E895519
+P 6375 1450
+F 0 "J1" H 6347 1332 50  0000 R CNN
+F 1 "12V" H 6347 1423 50  0000 R CNN
+F 2 "" H 6375 1450 50  0001 C CNN
+F 3 "~" H 6375 1450 50  0001 C CNN
+	1    6375 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E897CC8
+P 5850 1475
+F 0 "#PWR04" H 5850 1225 50  0001 C CNN
+F 1 "GND" H 5855 1302 50  0000 C CNN
+F 2 "" H 5850 1475 50  0001 C CNN
+F 3 "" H 5850 1475 50  0001 C CNN
+	1    5850 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5E8985F5
+P 5450 1350
+F 0 "#PWR03" H 5450 1200 50  0001 C CNN
+F 1 "VCC" H 5467 1523 50  0000 C CNN
+F 2 "" H 5450 1350 50  0001 C CNN
+F 3 "" H 5450 1350 50  0001 C CNN
+	1    5450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 1450 5850 1450
+Wire Wire Line
+	5850 1450 5850 1475
+Wire Wire Line
+	5450 1350 6175 1350
+Wire Wire Line
+	4000 2125 4000 1650
+Text GLabel 4000 1200 1    50   Input ~ 0
+D10
+Wire Wire Line
+	4000 1350 4000 1200
+Text GLabel 4100 1925 1    50   Input ~ 0
+D9
+Text GLabel 4200 1925 1    50   Input ~ 0
+D8
+Wire Wire Line
+	4300 2125 4300 1650
+Text GLabel 4300 1200 1    50   Input ~ 0
+D11
+Text GLabel 4550 1200 1    50   Input ~ 0
+D12
+Wire Wire Line
+	4400 2125 4400 1650
+Wire Wire Line
+	4400 1650 4550 1650
+Wire Wire Line
+	4550 1350 4550 1200
+Wire Wire Line
+	4300 1350 4300 1200
+Text GLabel 4500 1925 1    50   Input ~ 0
+D2
+$Comp
+L Custom:3461AS U?
+U 1 1 5E8C6A1C
+P 4250 2125
+F 0 "U?" H 4878 1796 50  0000 L CNN
+F 1 "3461AS" H 4878 1705 50  0000 L CNN
+F 2 "" H 4250 2325 50  0001 C CNN
+F 3 "" H 4250 2325 50  0001 C CNN
+	1    4250 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2125 4100 1925
+Wire Wire Line
+	4200 2125 4200 1925
+Wire Wire Line
+	4500 1925 4500 2125
+Text GLabel 4500 3375 3    50   Input ~ 0
+D13
+Wire Wire Line
+	4500 3375 4500 3275
+Wire Wire Line
+	4500 2975 4500 2875
+Text GLabel 4400 3050 3    50   Input ~ 0
+D7
+Text GLabel 4300 3050 3    50   Input ~ 0
+D3
+Text GLabel 4200 3050 3    50   Input ~ 0
+D4
+Text GLabel 4100 3050 3    50   Input ~ 0
+D5
+Text GLabel 4000 3050 3    50   Input ~ 0
+D6
+Wire Wire Line
+	4000 3050 4000 2875
+Wire Wire Line
+	4100 2875 4100 3050
+Wire Wire Line
+	4200 2875 4200 3050
+Wire Wire Line
+	4300 2875 4300 3050
+Wire Wire Line
+	4400 2875 4400 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5E8D5892
+P 5900 3700
+F 0 "#PWR?" H 5900 3450 50  0001 C CNN
+F 1 "GND" H 5905 3527 50  0000 C CNN
+F 2 "" H 5900 3700 50  0001 C CNN
+F 3 "" H 5900 3700 50  0001 C CNN
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3700 5900 3575
+Wire Wire Line
+	5900 2950 5900 3125
+Text GLabel 5550 3125 0    50   Input ~ 0
+A0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E8D9F12
+P 5900 2525
+F 0 "#PWR?" H 5900 2375 50  0001 C CNN
+F 1 "+3.3V" H 5915 2698 50  0000 C CNN
+F 2 "" H 5900 2525 50  0001 C CNN
+F 3 "" H 5900 2525 50  0001 C CNN
+	1    5900 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2650 5900 2525
+Wire Wire Line
+	5900 3125 5550 3125
+Connection ~ 5900 3125
+Wire Wire Line
+	5900 3125 5900 3275
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E8D1439
+P 2550 2425
+F 0 "#PWR?" H 2550 2275 50  0001 C CNN
+F 1 "+3.3V" H 2565 2598 50  0000 C CNN
+F 2 "" H 2550 2425 50  0001 C CNN
+F 3 "" H 2550 2425 50  0001 C CNN
+	1    2550 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5E897176
+P 1450 1325
+F 0 "SW1" H 1450 1560 50  0000 C CNN
+F 1 "PowerSwich" H 1450 1469 50  0000 C CNN
+F 2 "" H 1450 1325 50  0001 C CNN
+F 3 "~" H 1450 1325 50  0001 C CNN
+	1    1450 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5E89E0B2
+P 1125 1100
+F 0 "#PWR01" H 1125 950 50  0001 C CNN
+F 1 "VCC" H 1142 1273 50  0000 C CNN
+F 2 "" H 1125 1100 50  0001 C CNN
+F 3 "" H 1125 1100 50  0001 C CNN
+	1    1125 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1325 1650 1625
+Wire Wire Line
+	1125 1325 1125 1100
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5E8A11B0
+P 1850 1450
+F 0 "#PWR02" H 1850 1300 50  0001 C CNN
+F 1 "+3.3V" H 1865 1623 50  0000 C CNN
+F 2 "" H 1850 1450 50  0001 C CNN
+F 3 "" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1625 1850 1450
+Wire Wire Line
+	1125 1325 1250 1325
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5E88FD1F
+P 1750 2625
+F 0 "A1" H 1750 1536 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 1750 1445 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 1750 2625 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1750 2625 50  0001 C CNN
+	1    1750 2625
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 3025 0    50   Input ~ 0
+D10
+Wire Wire Line
+	1200 3025 1250 3025
+Text GLabel 1200 2925 0    50   Input ~ 0
+D9
+Text GLabel 1200 2825 0    50   Input ~ 0
+D8
+Text GLabel 1200 2725 0    50   Input ~ 0
+D7
+Text GLabel 1200 2625 0    50   Input ~ 0
+D6
+Text GLabel 1200 2525 0    50   Input ~ 0
+D5
+Text GLabel 1200 2425 0    50   Input ~ 0
+D4
+Text GLabel 1200 3125 0    50   Input ~ 0
+D11
+Text GLabel 1200 3225 0    50   Input ~ 0
+D12
+Text GLabel 1200 3325 0    50   Input ~ 0
+D13
+Text GLabel 1200 2325 0    50   Input ~ 0
+D3
+Text GLabel 1200 2225 0    50   Input ~ 0
+D2
+Wire Wire Line
+	1200 2325 1250 2325
+Wire Wire Line
+	1200 2225 1250 2225
+Wire Wire Line
+	1250 2425 1200 2425
+Wire Wire Line
+	1250 2525 1200 2525
+Wire Wire Line
+	1250 2725 1200 2725
+Wire Wire Line
+	1200 2625 1250 2625
+Wire Wire Line
+	1250 2825 1200 2825
+Wire Wire Line
+	1250 2925 1200 2925
+Wire Wire Line
+	1250 3125 1200 3125
+Wire Wire Line
+	1200 3225 1250 3225
+Wire Wire Line
+	1200 3325 1250 3325
+Wire Wire Line
+	2250 2425 2550 2425
+$Comp
+L power:GND #PWR?
+U 1 1 5E8D4023
+P 1850 3675
+F 0 "#PWR?" H 1850 3425 50  0001 C CNN
+F 1 "GND" H 1855 3502 50  0000 C CNN
+F 2 "" H 1850 3675 50  0001 C CNN
+F 3 "" H 1850 3675 50  0001 C CNN
+	1    1850 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3625 1850 3625
+Wire Wire Line
+	1850 3675 1850 3625
+Connection ~ 1850 3625
+Text GLabel 2400 2625 2    50   Input ~ 0
+A0
+Wire Wire Line
+	2400 2625 2250 2625
+Wire Notes Line
+	475  4000 475  475 
+Wire Notes Line
+	5250 4000 5250 475 
+Wire Notes Line
+	3375 475  3375 4000
+Text Notes 475  875  0    315  ~ 0
+MCU
+Text Notes 3375 775  0    236  ~ 0
+7Segment \n
+Wire Notes Line
+	6825 1875 5250 1875
+Wire Notes Line
+	475  475  6825 475 
+Wire Notes Line
+	475  4000 6825 4000
+Wire Notes Line
+	6825 475  6825 4000
+Text Notes 5250 2275 0    315  ~ 0
+NTC\n
+Text Notes 5275 850  0    315  ~ 0
+Power\n
+$EndSCHEMATC
